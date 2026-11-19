@@ -1,8 +1,8 @@
 # Employee Management Portal
 
 ## Project Description
-A web-based Employee Management Portal
-designed to manage employee information.
+Employee Management Portal is a web-based
+application designed to manage employee records.
 
 ## Technologies Used
 - Python
@@ -10,19 +10,38 @@ designed to manage employee information.
 - HTML
 - CSS
 - JavaScript
+- Git and GitHub
 
-## Features
-- Add Employees
-- View Employees
-- Update Employee Details
-- Delete Employees
+## Project Setup Instructions
 
-## Installation
+### 1. Clone the Repository
+Clone the project repository to your local machine.
 
-Install the required dependencies:
+### 2. Navigate to Project Directory
+cd EmployeeManagement
 
+### 3. Install Python
+Make sure Python is installed on your system.
+
+### 4. Create Virtual Environment
+python -m venv venv
+
+### 5. Activate Virtual Environment
+
+Windows:
+venv\Scripts\activate
+
+### 6. Install Dependencies
 pip install -r requirements.txt
 
-## Run Application
-
+### 7. Run the Application
 python app.py
+
+### 8. Open in Browser
+http://127.0.0.1:5000/
+
+## Main Features
+- Add Employee
+- View Employee Details
+- Update Employee Information
+- Delete Employee Records
